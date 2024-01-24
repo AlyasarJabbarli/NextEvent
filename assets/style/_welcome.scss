@@ -1,0 +1,14 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    #btnourservice{
+        padding: 18px 30px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .buttons{
+        display: block;
+    }
+
+}

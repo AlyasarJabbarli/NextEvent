@@ -1,0 +1,118 @@
+@media screen  and (max-width:670px){
+    .errorsection1parent{
+        height: 90vh;
+        .errorsection1all {
+            margin-top: 90px;
+        }
+    }
+}
+@media screen  and (min-width:670px){
+    .errorsection1parent{
+        min-height: 979px;
+        .errorsection1all {
+            margin-top: 190px;
+        }
+    }
+}
+
+#errorsection1 {
+    .errorsection1parent {
+        background-image: url(/assets/images/closeup-audio-mixer-NGJCWFE.jpg);
+        background-size:cover;
+        background-position: center;
+        padding-top: 1px;
+        position: relative;
+        border-bottom: 1px solid var(--secondary-color);
+        #errorsection1container {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            .errorsection1all {
+
+                .text {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h4 {
+                        color: var(--secondary-color);
+                        font-size: clamp( 1rem, 1vw, 1vh);
+                        font-weight: 700;
+                        letter-spacing: 5px;
+                        margin: 0px;
+                        transition: 0.5s;
+                    }
+                    h4:hover{
+                        font-size: 1.2rem;
+                    }
+                    h1 {
+                        margin: 0px;
+                        color: var(--primary-color);
+                        font-weight: var(--primary-font-weight);
+                        transition: 0.5s;
+                        font-size: clamp( 3rem, 20vw, 20vh);
+                    }
+                    h3{
+                        margin: 0px;
+                        color: var(--secondary-color);
+                        font-weight: var(--primary-font-weight);
+                        transition: 0.5s;
+                        font-size: clamp( 3rem, 5vw, 5vh); 
+                    }
+                    p {
+                        margin-top: 30px;
+                        font-family: var(--text-font-family);
+                        font-size: clamp( 1rem, 1vw, 1vh);
+                        font-weight: var(--text-font-weight);
+                        line-height: var(--text-line-height);
+                        color: var(--secondary-color);
+                        transition: 0.5s;
+                        width: 80%;
+                    }
+                    p:hover{
+                        font-size: 17px;
+                        transition: 0.5s;
+
+                    }
+                }
+
+                .button {
+                    margin-top: 80px;
+                    text-align: center;
+                    transition: 0.5s;
+
+                    #btnourservice {
+                        background: transparent;
+                        border: 1px solid var(--primary-color);
+                        color: var(--secondary-color);
+                        transition: 0.5s;
+                        padding: 18px 20px;
+                        letter-spacing: var(--accent-letter-spacing);
+                    }
+
+                    #btnourservice:hover {
+                        color: var(--primary-color);
+                    }
+                }
+                .button:hover{
+                    margin-top: 70px;
+                    transition: 0.5s;
+                }
+            }
+
+        }
+
+        #errorsection1overlay {
+            background-color: transparent;
+            background-image: linear-gradient(180deg, #D7F205 0%, #101010 50%);
+            opacity: 0.5;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+
+}
